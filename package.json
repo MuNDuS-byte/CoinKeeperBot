@@ -1,0 +1,23 @@
+{
+    "name": "telegramm_bot_coinkreeper",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@grammyjs/conversations": "^1.2.0",
+        "@grammyjs/storage-free": "^2.4.2",
+        "date-and-time": "^3.5.0",
+        "dotenv": "^16.4.5",
+        "grammy": "^1.30.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    }
+}
